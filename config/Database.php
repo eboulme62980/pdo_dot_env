@@ -47,5 +47,3 @@ class Database
     }
 }
 
-$dbConnection = new Database();
-$dbConnection->getConnection();
