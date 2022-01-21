@@ -1,0 +1,21 @@
+{
+    "name": "eboulme62980/pdo_dot_env",
+    "description": "Connexion à une base de données MySQL avec PDO en utilisant les variables d'environnement",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Boulmé",
+            "email": "emmanuel.boulme.info@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/"
+        }
+    }
+}
